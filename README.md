@@ -6,7 +6,7 @@ This very simple CLI tool consumes a CSV file, and then outputs that file as a `
 
 1. Clone this repo to your local machine.
 2. Run `npm i -g`.
-   a. This will install the dependencies plus register the CLI command with your machine.
+   - This will install the dependencies plus register the CLI command with your machine.
 
 ## Usage
 
@@ -36,6 +36,9 @@ This is very straightforward, using `poketourney new` with the available options
 `poketourney new --input ~/path/to/file.csv --popid {your PopId} --output ~/path/you/want/file.tdf`
 
 ### Additional Notes
+
 **--input** is a required option. Without this the command will throw an error.
+
 **--popid** will default to _000000_
+
 **--output** will default to the input value with updated file extension.
